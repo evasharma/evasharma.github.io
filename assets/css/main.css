@@ -1602,13 +1602,32 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+		
+			background-color: #ecd4ec ;
 			text-shadow: 1px 1px 0px #fff;
 		}
-
+		
+		.wrapper.style2 p{
+			color: #780878;
+		}
+		
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #c3eee7;
 			text-shadow: 1px 1px 0px #fff;
+		}
+		
+		.wrapper.style3 p{
+			color: #087a68;
+		}
+		
+		.wrapper.style31 {
+			background-color: #eee6b2;
+			text-shadow: 1px 1px 0px #fff;
+			ffd250
+		}
+		
+		.wrapper.style31 p{
+			color: #786a08;
 		}
 
 		.wrapper.style4 {
