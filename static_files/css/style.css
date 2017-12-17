@@ -1,0 +1,303 @@
+html, body {
+  background: white;
+  font-family: 'Lora', 'Trebuchet MS', sans-serif;
+  color: #644;
+  line-height: 1.6em;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  max-width:1280px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 16pt;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin-bottom: .75em;
+}
+
+h3 {
+  font-size: 12pt;
+  color: gray;
+  font-weight: 300;
+}
+
+p {
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a.file_link{border-style:solid;border-width:1pt;border-color:#C15568;color:#C15568;padding:2px 4px;font-size:smaller}
+
+.header {
+  background: #fefafa;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-width:1280px;
+  margin: 0 auto;
+}
+
+.body h4 {
+  margin-top: 2em;
+}
+
+.authors {
+    color: #774444;
+}
+
+h4.name {
+  letter-spacing: 2.5px;
+  text-justify: distribute;
+  font-weight: 700;
+  font-family: Lora, Open Sans, Georgia, Helvetica, Arial;
+}
+
+ul, ol {
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  margin-bottom: 1em;
+}
+.tight li {
+  margin-bottom: 0px;
+}
+
+small#pubs-toggle {
+  font-size: 70%;
+}
+small#pubs-toggle span{
+  background: none;
+  font-size: smaller;
+  border: none;
+  border-bottom: 1px solid white;
+}
+small#pubs-toggle span:hover {
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+#profilepic {
+  width: 180px;
+  height: 180px;
+  background-image:url(../img/eva00.png);
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  display: inline-block;
+}
+
+.faded {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+.faded:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.faded.faded-left:after {
+  box-shadow: inset 40px 0 40px -16px;
+}
+.faded.faded-right:after {
+  box-shadow: inset -40px 0 40px -16px;
+}
+.faded.faded-top:after {
+  box-shadow: inset 0 40px 40px -16px;
+}
+.faded.faded-bottom:after {
+  box-shadow: inset 0 -40px 40px -16px;
+}
+.faded.faded-left.faded-right:after {
+  box-shadow: inset 40px 0 40px -16px, inset -40px 0 40px -16px;
+}
+.faded.faded-left.faded-top:after {
+  box-shadow: inset 40px 40px 40px -16px;
+}
+.faded.faded-right.faded-bottom:after {
+  box-shadow: inset -40px -40px 40px -16px;
+}
+.faded.faded-top.faded-right:after {
+  box-shadow: inset -40px 40px 40px -16px;
+}
+.faded.faded-top.faded-bottom:after {
+  box-shadow: inset 0 40px 40px -16px, inset 0 -40px 40px -16px;
+}
+.faded.faded-left.faded-bottom:after {
+  box-shadow: inset 40px -40px 40px -16px;
+}
+.faded.faded-top.faded-right.faded-bottom:after {
+  box-shadow: inset -20px 0 40px 16px;
+}
+.faded.faded-left.faded-right.faded-bottom:after {
+  box-shadow: inset 0 -20px 40px 16px;
+}
+.faded.faded-left.faded-top.faded-bottom:after {
+  box-shadow: inset 20px 0 40px 16px;
+}
+.faded.faded-left.faded-top.faded-right:after {
+  box-shadow: inset 0 20px 40px 16px;
+}
+.faded.faded-all:after, .faded.faded-left.faded-top.faded-right.faded-bottom:after {
+  box-shadow: inset 0 0 40px 16px;
+}
+.faded.faded-narrow.faded-left:after {
+  box-shadow: inset 20px 0 20px -10px;
+}
+.faded.faded-narrow.faded-right:after {
+  box-shadow: inset -20px 0 20px -10px;
+}
+.faded.faded-narrow.faded-top:after {
+  box-shadow: inset 0 20px 20px -10px;
+}
+.faded.faded-narrow.faded-bottom:after {
+  box-shadow: inset 0 -20px 20px -10px;
+}
+.faded.faded-narrow.faded-left.faded-right:after {
+  box-shadow: inset 20px 0 20px -10px, inset -20px 0 20px -10px;
+}
+.faded.faded-narrow.faded-left.faded-top:after {
+  box-shadow: inset 20px 20px 20px -10px;
+}
+.faded.faded-narrow.faded-right.faded-bottom:after {
+  box-shadow: inset -20px -20px 20px -10px;
+}
+.faded.faded-narrow.faded-top.faded-right:after {
+  box-shadow: inset -20px 20px 20px -10px;
+}
+.faded.faded-narrow.faded-top.faded-bottom:after {
+  box-shadow: inset 0 20px 20px -10px, inset 0 -20px 20px -10px;
+}
+.faded.faded-narrow.faded-left.faded-bottom:after {
+  box-shadow: inset 20px -20px 20px -10px;
+}
+.faded.faded-narrow.faded-top.faded-right.faded-bottom:after {
+  box-shadow: inset -10px 0 20px 10px;
+}
+.faded.faded-narrow.faded-left.faded-right.faded-bottom:after {
+  box-shadow: inset 0 -10px 20px 10px;
+}
+.faded.faded-narrow.faded-left.faded-top.faded-bottom:after {
+  box-shadow: inset 10px 0 20px 10px;
+}
+.faded.faded-narrow.faded-left.faded-top.faded-right:after {
+  box-shadow: inset 0 10px 20px 10px;
+}
+.faded.faded-narrow.faded-all:after, .faded.faded-narrow.faded-left.faded-top.faded-right.faded-bottom:after {
+  box-shadow: inset 0 0 20px 10px;
+}
+.faded.faded-wide.faded-left:after {
+  box-shadow: inset 80px 0 80px -28px;
+}
+.faded.faded-wide.faded-right:after {
+  box-shadow: inset -80px 0 80px -28px;
+}
+.faded.faded-wide.faded-top:after {
+  box-shadow: inset 0 80px 80px -28px;
+}
+.faded.faded-wide.faded-bottom:after {
+  box-shadow: inset 0 -80px 80px -28px;
+}
+.faded.faded-wide.faded-left.faded-right:after {
+  box-shadow: inset 80px 0 80px -28px, inset -80px 0 80px -28px;
+}
+.faded.faded-wide.faded-left.faded-top:after {
+  box-shadow: inset 80px 80px 80px -28px;
+}
+.faded.faded-wide.faded-right.faded-bottom:after {
+  box-shadow: inset -80px -80px 80px -28px;
+}
+.faded.faded-wide.faded-top.faded-right:after {
+  box-shadow: inset -80px 80px 80px -28px;
+}
+.faded.faded-wide.faded-top.faded-bottom:after {
+  box-shadow: inset 0 80px 80px -28px, inset 0 -80px 80px -28px;
+}
+.faded.faded-wide.faded-left.faded-bottom:after {
+  box-shadow: inset 80px -80px 80px -28px;
+}
+.faded.faded-wide.faded-top.faded-right.faded-bottom:after {
+  box-shadow: inset -40px 0 80px 28px;
+}
+.faded.faded-wide.faded-left.faded-right.faded-bottom:after {
+  box-shadow: inset 0 -40px 80px 28px;
+}
+.faded.faded-wide.faded-left.faded-top.faded-bottom:after {
+  box-shadow: inset 40px 0 80px 28px;
+}
+.faded.faded-wide.faded-left.faded-top.faded-right:after {
+  box-shadow: inset 0 40px 80px 28px;
+}
+.faded.faded-wide.faded-all:after, .faded.faded-wide.faded-left.faded-top.faded-right.faded-bottom:after {
+  box-shadow: inset 0 0 80px 28px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.gallery div.image {
+  width:200px;
+  height: 200px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  float:left;
+  display: inline;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid rgba(239, 239, 239, 0.86);
+  box-shadow: 0 1px 3px rgba(160, 202, 219, 0.24); 
+}
+.gallery div.image:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);    
+}
+
+@media  (max-width:1300px) {
+}
+
+@media  (max-width:900px) {
+  html,body {
+    font-size: 12pt;
+  }
+  h1 {
+    font-size: 16pt;
+  }
+  h4 {
+    margin-top: 2em;
+    font-size: 16pt;
+    margin-bottom: 1em;
+  }
+  .stitle {
+    font-size: 16pt;
+  }
+  .header div {
+  }
+}
+
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
